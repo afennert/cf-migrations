@@ -2601,15 +2601,16 @@ constant-case@^3.0.4:
     upper-case "^2.0.2"
 
 contentful-management@^10.0.0:
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.11.0.tgz#ad164cc3349826a3ec0c1f142c6cee7db913fc25"
-  integrity sha512-uY4navYx4H8nWDU5uyAjgprk2WaS/d/mKdVcsGwDmZVgcZJnP+pVDQlryD9xNTHHEavEIodb8m41Qwt1LeNdIQ==
+  version "10.29.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.29.1.tgz#6afce7c674f4d3211acc7ae1ef4ccab367ba857a"
+  integrity sha512-lP929UAf/0fK7ZTjVXrj0O/b7+MtW490Vj8lAb0HGhKKNwS1VhG9q71sKyx/OvsHIYXqVy4zAlKOf2TfchMdiA==
   dependencies:
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
     contentful-sdk-core "^7.0.1"
-    fast-copy "^2.1.1"
+    fast-copy "^3.0.0"
     lodash.isplainobject "^4.0.6"
+    type-fest "^3.0.0"
 
 contentful-management@^7.51.5:
   version "7.52.0"
@@ -3443,10 +3444,15 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-fast-copy@^2.1.0, fast-copy@^2.1.1:
+fast-copy@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-2.1.1.tgz#f5cbcf2df64215e59b8e43f0b2caabc19848083a"
   integrity sha512-Qod3DdRgFZ8GUIM6ygeoZYpQ0QLW9cf/FS9KhhjlYggcSZXWAemAw8BOCO5LuYCrR3Uj3qXDVTUzOUwG8C7beQ==
+
+fast-copy@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-3.0.0.tgz#875ebf33b13948ae012b6e51d33da5e6e7571ab8"
+  integrity sha512-4HzS+9pQ5Yxtv13Lhs1Z1unMXamBdn5nA4bEi1abYpDNSpSp7ODYQ1KPMF6nTatfEzgH6/zPvXKU1zvHiUjWlA==
 
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
@@ -7559,6 +7565,11 @@ type-fest@^2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.5.3.tgz#2538287381b24d0c1d4911279934f28aaa10d620"
   integrity sha512-7VNmE7FlsrdcWjKbtuRuynZz96Gmf35p5DvoR2tbceNP0vd58ISx87PvUUInlhtRC49vSX6qlxEKc7AoiHRirg==
+
+type-fest@^3.0.0:
+  version "3.5.7"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.5.7.tgz#1ee9efc9a172f4002c40b896689928a7bba537f2"
+  integrity sha512-6J4bYzb4sdkcLBty4XW7F18VPI66M4boXNE+CY40532oq2OJe6AVMB5NmjOp6skt/jw5mRjz/hLRpuglz0U+FA==
 
 typedarray-to-buffer@^3.1.5:
   version "3.1.5"
